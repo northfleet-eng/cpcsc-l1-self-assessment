@@ -20,6 +20,14 @@ The following Public Services and Procurement Canada (PSPC) and Canadian Centre 
 
 - **CPCSC Level 1 self-assessment criteria now available:** <https://scc-ccn.ca/resources/news/cpcsc-level-1-self-assessment-criteria-now-available>
 
+## NIST SP 800-171A Rev. 3 lineage
+
+CPCSC Level 1 is based on the Canadian version of NIST SP 800-171A Rev. 3 *Assessing Security Requirements for Controlled Unclassified Information*. There are no substantial technical changes between the Canadian document and the NIST source; differences reflect the Canadian regulatory, policy, directive, standards, and guidelines landscape only.
+
+The "Source assessment procedures" listed for each control in this repository (for example, AC-02, AC-03, AC-20, AC-22, IA-02, IA-03, IA-11, MP-06, PE-02, PE-03, PE-05, SC-07, SI-02, SI-03) trace back to the NIST source procedures and remain valid cross-reference identifiers for organizations whose evidence inventory is already mapped against NIST SP 800-171A Rev. 3 or NIST SP 800-53.
+
+- **NIST SP 800-171A Rev. 3 (NIST publication):** <https://csrc.nist.gov/pubs/sp/800/171/a/r3/final>
+
 ## What this repository is not
 
 CPCSC Level 1 is one tier of a three-tier program. This repository covers Level 1 only.
