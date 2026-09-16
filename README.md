@@ -44,7 +44,7 @@ Apache License 2.0. See [`LICENSE`](LICENSE).
 
 ## Maintained by
 
-Northfleet (`https://northfleet.tech`). Issues and pull requests welcome.
+Northfleet (`https://northfleetsecurity.ca`). Issues and pull requests welcome.
 
 ## Disclaimer
 
