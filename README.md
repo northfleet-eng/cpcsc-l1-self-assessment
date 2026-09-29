@@ -14,11 +14,11 @@ This repository fills that gap: a forkable, diff-friendly, vendor-neutral checkl
 
 ## Files in this repository
 
-- [`cpcsc-l1-controls.md`](cpcsc-l1-controls.md): the main artifact. All 13 controls grouped by family, with verbatim determination statements, ODPs, assessment methods, and per-determination attestation fields.
-- [`cpcsc-l1-controls.csv`](cpcsc-l1-controls.csv): the 71 determination statements as CSV, one row per statement, with Status and Evidence / Notes columns. ODPs and assessment methods are in the Markdown file only.
+- [`cpcsc-l1-controls.md`](cpcsc-l1-controls.md): the main artifact. All 13 controls grouped by family, with the ITSP.10.171-01 determination statements, ODPs and assessment methods, and per-determination attestation fields.
+- [`cpcsc-l1-controls.csv`](cpcsc-l1-controls.csv): the 71 determination statements as CSV, one row per statement, in ITSP.10.171-01 wording, with Status and Evidence / Notes columns. ODPs and assessment methods are in the Markdown file only.
 - [`SOURCES.md`](SOURCES.md): canonical PSPC and CCCS source URLs, plus the NIST SP 800-171A Rev. 3 lineage.
 - [`LICENSE`](LICENSE): Apache License 2.0, for this repository's own material.
-- [`NOTICE`](NOTICE): the source and reproduction terms of the Government of Canada text.
+- [`NOTICE`](NOTICE): the source of the Government of Canada text and its Open Government Licence – Canada attribution.
 
 ## How to use
 
@@ -33,15 +33,15 @@ The formal Level 1 self-assessment is completed with PSPC's online tool, or by a
 
 ## Scope and limits
 
-The Government of Canada content here is reproduced verbatim from PSPC's [Level 1 criteria page](https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/cyber-security-certification-defence-suppliers-canada/cyber-security-certification-level1.html): determination statements, ODPs, assessment methods, source procedure references, and family descriptions. The community usability layer added by this repository is limited to the Markdown table format, the CSV layout, the per-determination status fields, and the evidence-notes field.
+The 13 controls are the ITSP.10.171 requirements that PSPC's [Level 1 criteria](https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/cyber-security-certification-defence-suppliers-canada/cyber-security-certification-level1.html) select. For those requirements, PSPC's criteria match the CCCS assessment procedures in [ITSP.10.171-01](https://www.cyber.gc.ca/en/guidance/assessing-security-requirements-specified-information-itsp10171-01) apart from minor wording. The Government of Canada content here (determination statements, ODPs, assessment methods, source procedure references, and family descriptions) is reproduced from ITSP.10.171-01, reformatted into tables. Identifiers use lowercase item letters, as in the CPCSC criteria and NIST SP 800-171A. The community usability layer added by this repository is limited to the Markdown table format, the CSV layout, the per-determination status fields, and the evidence-notes field.
 
-The underlying CPCSC Level 1 framework is based on the Canadian version of NIST SP 800-171A Rev. 3. There are no substantial technical changes between the Canadian document and the NIST source; differences reflect Canadian regulatory and compliance landscape only.
+ITSP.10.171-01 is the Canadian version of NIST SP 800-171A Rev. 3. There are no substantial technical changes between the Canadian document and the NIST source; differences reflect Canadian regulatory and compliance landscape only.
 
 CPCSC Level 1 is not the same as Level 2, Level 3, the ITSP.10.033 series (formerly ITSG-33), NIST SP 800-171, or any classified-environment accreditation regime. See [`SOURCES.md`](SOURCES.md) for the boundary lines.
 
 ## License
 
-The repository's own material is under the Apache License 2.0 ([`LICENSE`](LICENSE)). The reproduced Government of Canada text is not: it is Crown copyright, reproduced under the Canada.ca Terms and conditions, which do not permit commercial redistribution without the Government of Canada's written permission. [`NOTICE`](NOTICE) gives the source and the terms.
+The repository's own material is under the Apache License 2.0 ([`LICENSE`](LICENSE)). The text reproduced from ITSP.10.171-01 is under the Open Government Licence – Canada; [`NOTICE`](NOTICE) carries the attribution.
 
 ## Maintained by
 

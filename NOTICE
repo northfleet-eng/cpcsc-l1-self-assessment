@@ -5,28 +5,24 @@ The Apache License 2.0 in LICENSE applies to this repository's own material:
 the template layout, the Status and Evidence / notes fields, the CSV
 structure, and the text of README.md and SOURCES.md.
 
-It does not apply to the Government of Canada text reproduced in
-cpcsc-l1-controls.md and cpcsc-l1-controls.csv: the determination
-statements, organization-defined parameters, assessment methods and objects,
-source assessment procedure references, and family descriptions. That text
-is Crown copyright, reproduced from:
+The family descriptions, organization-defined parameters, determination
+statements, assessment methods and objects, and source assessment procedure
+references in cpcsc-l1-controls.md and cpcsc-l1-controls.csv are reproduced,
+reformatted, from the following Government of Canada publication:
 
-  Canadian Program for Cyber Security Certification: Level 1 criteria
-  Public Services and Procurement Canada
-  https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/cyber-security-certification-defence-suppliers-canada/cyber-security-certification-level1.html
+  Assessing security requirements for specified information (ITSP.10.171-01)
+  Canadian Centre for Cyber Security
+  https://www.cyber.gc.ca/en/guidance/assessing-security-requirements-specified-information-itsp10171-01
+  Open Government Portal record:
+  https://open.canada.ca/data/en/dataset/7bef2eec-539a-4750-b7ec-dfa776da7658
+  (page dated 2026-04-20; checked against this repository on 2026-09-29)
 
-This reproduction is a copy of the version available at that URL, dated
-2026-04-22 on the page, and was checked against it on 2026-09-29. It is
-reproduced under the Canada.ca Terms and conditions
-(https://www.canada.ca/en/transparency/terms.html), which permit
-non-commercial reproduction without charge or further permission and require
-prior written permission from the Government of Canada for commercial
-redistribution. The reproduction has not been made in affiliation with, or
-with the endorsement of, the Government of Canada.
+Contains information licensed under the Open Government Licence – Canada.
+https://open.canada.ca/en/open-government-licence-canada
 
-The Level 1 criteria page is not published under the Open Government
-Licence – Canada. The Canadian Centre for Cyber Security publishes the same
-assessment procedures, with minor wording differences, in "Assessing security
-requirements for specified information (ITSP.10.171-01)", which the Open
-Government Portal lists under that licence:
-https://open.canada.ca/data/en/dataset/7bef2eec-539a-4750-b7ec-dfa776da7658
+The reproduction is unofficial and has not been reviewed or endorsed by the
+Canadian Centre for Cyber Security or the Government of Canada.
+
+The selection of 13 controls follows the Level 1 criteria of Public Services
+and Procurement Canada's Canadian Program for Cyber Security Certification.
+The reproduced text is taken from ITSP.10.171-01, not from that page.
