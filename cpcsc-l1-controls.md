@@ -2,7 +2,7 @@
 
 Thirteen mandatory self-attestation controls across six ITSP.10.171 families. Each control decomposes into one or more determination statements (lettered A.XX.XX.X); each determination statement is a binary attestation: Met or Not Met. The assessment is a self-attestation. Evidence is not submitted to PSPC at attestation time but must be retained and defensible.
 
-This file is derived verbatim, where possible, from PSPC's published [Level 1 criteria page](https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/cyber-security-certification-defence-suppliers-canada/cyber-security-certification-level1.html). Where wording is reformatted (Markdown tables instead of HTML), the underlying text is preserved.
+This file is derived verbatim, where possible, from PSPC's published [Level 1 criteria page](https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/cyber-security-certification-defence-suppliers-canada/cyber-security-certification-level1.html). Where wording is reformatted (Markdown tables instead of HTML), the underlying text is preserved. That text is Crown copyright and is not covered by this repository's Apache License 2.0; see [`NOTICE`](NOTICE) for its source and reproduction terms.
 
 ## How to use this file
 
@@ -14,7 +14,7 @@ Walk through each determination statement. For each:
 4. In the **Evidence / notes** field, record where the supporting artifact lives, who owns it, and the date of last review.
 5. Annually re-attest, or sooner if the underlying systems materially change.
 
-The CPCSC formal attestation happens through PSPC's online tool on the CanadaBuys portal. This file is for internal readiness assessment, not a substitute for that submission.
+The formal Level 1 self-assessment is completed with PSPC's online tool, or by another means, and its result and expiry date are confirmed in the supplier's CanadaBuys profile. This file is for internal readiness assessment, not a substitute for that submission.
 
 ## Contents
 
