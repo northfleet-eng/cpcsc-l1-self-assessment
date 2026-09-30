@@ -1,0 +1,28 @@
+CPCSC Level 1 self-assessment
+Copyright 2026 Northfleet Security Ltd.
+
+The Apache License 2.0 in LICENSE applies to this repository's own material:
+the template layout, the Status and Evidence / notes fields, the CSV
+structure, and the text of README.md and SOURCES.md.
+
+The family descriptions, organization-defined parameters, determination
+statements, assessment methods and objects, and source assessment procedure
+references in cpcsc-l1-controls.md and cpcsc-l1-controls.csv are reproduced,
+reformatted, from the following Government of Canada publication:
+
+  Assessing security requirements for specified information (ITSP.10.171-01)
+  Canadian Centre for Cyber Security
+  https://www.cyber.gc.ca/en/guidance/assessing-security-requirements-specified-information-itsp10171-01
+  Open Government Portal record:
+  https://open.canada.ca/data/en/dataset/7bef2eec-539a-4750-b7ec-dfa776da7658
+  (page dated 2026-04-20; checked against this repository on 2026-09-29)
+
+Contains information licensed under the Open Government Licence – Canada.
+https://open.canada.ca/en/open-government-licence-canada
+
+The reproduction is unofficial and has not been reviewed or endorsed by the
+Canadian Centre for Cyber Security or the Government of Canada.
+
+The selection of 13 controls follows the Level 1 criteria of Public Services
+and Procurement Canada's Canadian Program for Cyber Security Certification.
+The reproduced text is taken from ITSP.10.171-01, not from that page.

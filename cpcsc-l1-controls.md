@@ -2,7 +2,9 @@
 
 Thirteen mandatory self-attestation controls across six ITSP.10.171 families. Each control decomposes into one or more determination statements (lettered A.XX.XX.X); each determination statement is a binary attestation: Met or Not Met. The assessment is a self-attestation. Evidence is not submitted to PSPC at attestation time but must be retained and defensible.
 
-This file is derived verbatim, where possible, from PSPC's published [Level 1 criteria page](https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/cyber-security-certification-defence-suppliers-canada/cyber-security-certification-level1.html). Where wording is reformatted (Markdown tables instead of HTML), the underlying text is preserved.
+The 13 controls are the ITSP.10.171 requirements that PSPC's [Level 1 criteria](https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/cyber-security-certification-defence-suppliers-canada/cyber-security-certification-level1.html) select. For those requirements, PSPC's criteria match the ITSP.10.171-01 assessment procedures apart from minor wording, and this file follows ITSP.10.171-01. The family descriptions, organization-defined parameters, determination statements, assessment methods and source assessment procedure references are reproduced from the Canadian Centre for Cyber Security's [*Assessing security requirements for specified information (ITSP.10.171-01)*](https://www.cyber.gc.ca/en/guidance/assessing-security-requirements-specified-information-itsp10171-01), reformatted as Markdown tables, under the Open Government Licence – Canada; see [`NOTICE`](NOTICE).
+
+Identifiers use lowercase item letters, as in NIST SP 800-171A and the CPCSC Level 1 criteria. ITSP.10.171-01 capitalizes them, prints A.03.05.02[01] and [02] with an extra period, and numbers both update statements in 03.14.01 as B[01]; the second is b[02] here.
 
 ## How to use this file
 
@@ -14,7 +16,7 @@ Walk through each determination statement. For each:
 4. In the **Evidence / notes** field, record where the supporting artifact lives, who owns it, and the date of last review.
 5. Annually re-attest, or sooner if the underlying systems materially change.
 
-The CPCSC formal attestation happens through PSPC's online tool on the CanadaBuys portal. This file is for internal readiness assessment, not a substitute for that submission.
+The formal Level 1 self-assessment is completed with PSPC's online tool, or by another means, and its result and expiry date are confirmed in the supplier's CanadaBuys profile. This file is for internal readiness assessment, not a substitute for that submission.
 
 ## Contents
 
@@ -73,19 +75,19 @@ The controls in the Access control family support the ability to permit or deny 
 | A.03.01.01.b[05] | system accounts are removed in accordance with organizational policy, procedures, prerequisites, and criteria | _Pending_ | |
 | A.03.01.01.c.01 | authorized users of the system are specified | _Pending_ | |
 | A.03.01.01.c.02 | group and role memberships are specified | _Pending_ | |
-| A.03.01.01.c.03 | access authorizations (in other words, privileges) for each account are specified | _Pending_ | |
+| A.03.01.01.c.03 | access authorizations (for example, privileges) for each account are specified | _Pending_ | |
 | A.03.01.01.d.01 | access to the system is authorized based on a valid access authorization | _Pending_ | |
 | A.03.01.01.d.02 | access to the system is authorized based on intended system usage | _Pending_ | |
 | A.03.01.01.e | the use of system accounts is monitored | _Pending_ | |
 | A.03.01.01.f.01 | system accounts are disabled when the accounts have expired | _Pending_ | |
-| A.03.01.01.f.02 | system accounts are disabled when the accounts have been inactive for <ODP[01]: time period> | _Pending_ | |
+| A.03.01.01.f.02 | system accounts are disabled when the accounts have been inactive for <A.03.01.01.ODP[01]: time period> | _Pending_ | |
 | A.03.01.01.f.03 | system accounts are disabled when the accounts are no longer associated with a user or individual | _Pending_ | |
 | A.03.01.01.f.04 | system accounts are disabled when the accounts violate organizational policy | _Pending_ | |
 | A.03.01.01.f.05 | system accounts are disabled when significant risks associated with individuals are discovered | _Pending_ | |
-| A.03.01.01.g.01 | account managers and designated personnel or roles are notified within <ODP[02]: time period> when accounts are no longer required | _Pending_ | |
-| A.03.01.01.g.02 | account managers and designated personnel or roles are notified within <ODP[03]: time period> when users are terminated or transferred | _Pending_ | |
-| A.03.01.01.g.03 | account managers and designated personnel or roles are notified within <ODP[04]: time period> when system usage or the need-to-know changes for an individual | _Pending_ | |
-| A.03.01.01.h | users are required to log out of the system after <ODP[05]: time period> of expected inactivity or when the following circumstances occur: <ODP[06]: circumstances> | _Pending_ | |
+| A.03.01.01.g.01 | account managers and designated personnel or roles are notified within <A.03.01.01.ODP[02]: time period> when accounts are no longer required | _Pending_ | |
+| A.03.01.01.g.02 | account managers and designated personnel or roles are notified within <A.03.01.01.ODP[03]: time period> when users are terminated or transferred | _Pending_ | |
+| A.03.01.01.g.03 | account managers and designated personnel or roles are notified within <A.03.01.01.ODP[04]: time period> when system usage or the need-to-know changes for an individual | _Pending_ | |
+| A.03.01.01.h | users are required to log out of the system after <A.03.01.01.ODP[05]: time period> of expected inactivity or when the following circumstances occur: <A.03.01.01.ODP[06]: circumstances> | _Pending_ | |
 
 <details>
 <summary>Assessment methods</summary>
@@ -115,7 +117,7 @@ The controls in the Access control family support the ability to permit or deny 
 <details>
 <summary>Assessment methods</summary>
 
-**Examine:** access control policy and procedures; procedures for access enforcement; system design documentation; system configuration settings; list of approved authorizations (in other words, user privileges); system audit records; system security plan; other relevant documents or records
+**Examine:** access control policy and procedures; procedures for access enforcement; system design documentation; system configuration settings; list of approved authorizations (for example, user privileges); system audit records; system security plan; other relevant documents or records
 
 **Interview:** personnel with access enforcement responsibilities; system administrators; personnel with information security responsibilities; system developers
 
@@ -141,8 +143,8 @@ The controls in the Access control family support the ability to permit or deny 
 | ID | Statement | Status | Evidence / notes |
 |---|---|---|---|
 | A.03.01.20.a | the use of external systems is prohibited unless the systems are specifically authorized | _Pending_ | |
-| A.03.01.20.b | the following security requirements to be satisfied on external systems prior to allowing the use of or access to those systems by authorized individuals are established: <ODP: security requirements> | _Pending_ | |
-| A.03.01.20.c.01 | authorized individuals are permitted to use external systems to access the organizational system or to process, store, or transmit specified information only after verifying that the security requirements on the external systems as specified in the organization's system security plans have been satisfied | _Pending_ | |
+| A.03.01.20.b | the following security requirements to be satisfied on external systems prior to allowing the use of or access to those systems by authorized individuals are established: <A.03.01.20.ODP: security requirements> | _Pending_ | |
+| A.03.01.20.c.01 | authorized individuals are permitted to use external systems to access the organizational system or to process, store, or transmit specified information only after verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied | _Pending_ | |
 | A.03.01.20.c.02 | authorized individuals are permitted to use external systems to access the organizational system or to process, store, or transmit specified information only after retaining approved system connection or processing agreements with the organizational entity hosting the external systems | _Pending_ | |
 | A.03.01.20.d | the use of organization-controlled portable storage devices by authorized individuals on external systems is restricted | _Pending_ | |
 
@@ -198,7 +200,7 @@ The Identification and authentication controls support the unique identification
 
 | Parameter | Definition |
 |---|---|
-| A.03.05.01.ODP | circumstances or situations that require re-authentication are defined |
+| A.03.05.01.ODP | circumstances or situations that require reauthentication are defined |
 
 #### Determination statements
 
@@ -207,12 +209,12 @@ The Identification and authentication controls support the unique identification
 | A.03.05.01.a[01] | system users are uniquely identified | _Pending_ | |
 | A.03.05.01.a[02] | system users are authenticated | _Pending_ | |
 | A.03.05.01.a[03] | processes acting on behalf of users are associated with uniquely identified and authenticated system users | _Pending_ | |
-| A.03.05.01.b | users are re-authenticated when <ODP: circumstances or situations> | _Pending_ | |
+| A.03.05.01.b | users are reauthenticated when <A.03.05.01.ODP: circumstances or situations> | _Pending_ | |
 
 <details>
 <summary>Assessment methods</summary>
 
-**Examine:** identification and authentication policy and procedures; list of circumstances or situations requiring re-authentication; system design documentation; system configuration settings; system audit records; list of system accounts; system security plan; other relevant documents or records
+**Examine:** identification and authentication policy and procedures; list of circumstances or situations requiring reauthentication; system design documentation; system configuration settings; system audit records; list of system accounts; system security plan; other relevant documents or records
 
 **Interview:** personnel with identification and authentication responsibilities; personnel with system operations responsibilities; personnel with account management responsibilities; system developers; personnel with information security responsibilities; system administrators
 
@@ -237,8 +239,8 @@ The Identification and authentication controls support the unique identification
 
 | ID | Statement | Status | Evidence / notes |
 |---|---|---|---|
-| A.03.05.02[01] | <ODP: devices or types of devices> are uniquely identified before establishing a system connection | _Pending_ | |
-| A.03.05.02[02] | <ODP: devices or types of devices> are authenticated before establishing a system connection | _Pending_ | |
+| A.03.05.02[01] | <A.03.05.02.ODP: devices or types of devices> are uniquely identified before establishing a system connection | _Pending_ | |
+| A.03.05.02[02] | <A.03.05.02.ODP: devices or types of devices> are authenticated before establishing a system connection | _Pending_ | |
 
 <details>
 <summary>Assessment methods</summary>
@@ -262,8 +264,8 @@ The Identification and authentication controls support the unique identification
 
 | ID | Statement | Status | Evidence / notes |
 |---|---|---|---|
-| A.03.05.03[01] | strong multi-factor authentication for access to privileged accounts is implemented | _Pending_ | |
-| A.03.05.03[02] | strong multi-factor authentication for access to non-privileged accounts is implemented | _Pending_ | |
+| A.03.05.03[01] | strong MFA for access to privileged accounts is implemented | _Pending_ | |
+| A.03.05.03[02] | strong MFA for access to non-privileged accounts is implemented | _Pending_ | |
 
 <details>
 <summary>Assessment methods</summary>
@@ -272,7 +274,7 @@ The Identification and authentication controls support the unique identification
 
 **Interview:** personnel with system operations responsibilities; personnel with account management responsibilities; personnel with information security responsibilities; system developers; system administrators
 
-**Test:** mechanisms for supporting or implementing a multi-factor authentication capability
+**Test:** mechanisms for supporting or implementing a MFA capability
 
 </details>
 
@@ -329,7 +331,7 @@ The Physical protection controls support the control of physical access to syste
 | A.03.10.01.a[02] | a list of individuals with authorized access to the facility where the system resides is approved | _Pending_ | |
 | A.03.10.01.a[03] | a list of individuals with authorized access to the facility where the system resides is maintained | _Pending_ | |
 | A.03.10.01.b | authorization credentials for facility access are issued | _Pending_ | |
-| A.03.10.01.c | the physical access list is reviewed <ODP: frequency> | _Pending_ | |
+| A.03.10.01.c | the physical access list is reviewed <A.03.10.01.ODP: frequency> | _Pending_ | |
 | A.03.10.01.d | individuals from the physical access list are removed when access is no longer required | _Pending_ | |
 
 <details>
@@ -410,7 +412,12 @@ The System and communications protection controls support the monitoring, contro
 
 ## 3.14 System and information integrity
 
-The System and information integrity controls support the protection of the integrity of the system components and the data that it processes. They allow an organization to identify, report and correct data and system flaws in a timely manner, to provide protection against malicious code, and to monitor system security alerts and advisories, and to take appropriate actions in response.
+The System and information integrity controls support the protection of the integrity of the system components and the data that it processes. They allow an organization to:
+
+- identify, report and correct data and system flaws in a timely manner
+- provide protection against malicious code
+- monitor system security alerts and advisories
+- take appropriate actions in response.
 
 ### 03.14.01 — Flaw remediation
 
@@ -431,8 +438,8 @@ The System and information integrity controls support the protection of the inte
 | A.03.14.01.a[01] | system flaws are identified | _Pending_ | |
 | A.03.14.01.a[02] | system flaws are reported | _Pending_ | |
 | A.03.14.01.a[03] | system flaws are corrected | _Pending_ | |
-| A.03.14.01.b[01] | security-relevant software updates are installed within <ODP[01]: time period> of the release of the updates | _Pending_ | |
-| A.03.14.01.b[02] | security-relevant firmware updates are installed within <ODP[02]: time period> of the release of the updates | _Pending_ | |
+| A.03.14.01.b[01] | security-relevant software updates are installed within <A.03.14.01.ODP[01]: time period> of the release of the updates | _Pending_ | |
+| A.03.14.01.b[02] | security-relevant firmware updates are installed within <A.03.14.01.ODP[02]: time period> of the release of the updates | _Pending_ | |
 
 <details>
 <summary>Assessment methods</summary>
@@ -465,7 +472,7 @@ The System and information integrity controls support the protection of the inte
 | A.03.14.02.a[01] | malicious code protection mechanisms are implemented at system entry and exit points to detect malicious code | _Pending_ | |
 | A.03.14.02.a[02] | malicious code protection mechanisms are implemented at system entry and exit points to eradicate malicious code | _Pending_ | |
 | A.03.14.02.b | malicious code protection mechanisms are updated as new releases are available in accordance with configuration management policy and procedures | _Pending_ | |
-| A.03.14.02.c.01[01] | malicious code protection mechanisms are configured to perform scans of the system <ODP: frequency> | _Pending_ | |
+| A.03.14.02.c.01[01] | malicious code protection mechanisms are configured to perform scans of the system <A.03.14.02.ODP: frequency> | _Pending_ | |
 | A.03.14.02.c.01[02] | malicious code protection mechanisms are configured to perform real-time scans of files from external sources at endpoints or system entry and exit points as the files are downloaded, opened, or executed | _Pending_ | |
 | A.03.14.02.c.02 | malicious code protection mechanisms are configured to block or quarantine malicious code, or take other mitigation actions in response to malicious code detection | _Pending_ | |
 
